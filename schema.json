@@ -1,0 +1,40 @@
+users:[{
+	name:"",
+	email:"",
+    password:"",
+    number:"",
+    portfolioLink:"",
+    
+    work:[{
+        companyName:"",
+        jobTitle:"",
+        loc:"",
+        startDate:"",
+        endDate:""
+    }],
+
+    education:[{
+        schoolName:'',
+        degree:"",
+        major:"",
+        cgpa:""
+    }],
+
+    skills:[{
+        skillName:""
+    }],
+
+    projects:[{
+        projectName:"",
+        projectDuration:"",
+        projectDescription:""
+    }],
+
+    achievements:[{
+        achivementName:"",
+        achievementDescription:""
+    }]
+
+
+}
+]

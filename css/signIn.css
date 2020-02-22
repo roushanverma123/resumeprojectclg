@@ -1,0 +1,46 @@
+body{
+    margin:0px;
+}
+
+.btn_clr{
+    color:"#3cb9ab";
+}
+.centeralign{
+    text-align:center;
+}
+.bg{
+ background-image: url("Assets/crouseal.jpg");
+ background-size: cover;
+}
+.text_pos{
+    color:white;
+}
+.bg_grd{
+background: linear-gradient(to right,#242d33,#30bcad);
+    /* height:2px; */
+    color: #FFF;
+
+    padding: 5.5rem;
+    overflow: hidden;
+}
+
+.bgrnd{
+    background: linear-gradient(to right,#242d33,#30bcad);
+
+    
+}
+
+#vec_img{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+.dark_color{
+    background:linear-gradient(to right,white,#a7a8a8);
+}
+
+clr{
+    color:white;
+    background-color: #242d33;
+}

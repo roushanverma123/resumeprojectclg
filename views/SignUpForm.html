@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/SignUpForm.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+
+    <!-- <script>
+        $(document).ready(function(){
+            var max_f =10;
+            var wrapper = $(".eduWrapper");
+            var add_b = $(".ad_btn");
+            var x=1;
+            $(add_b).click(function(e){
+                e.preventDefault();
+                if(x<max_f){
+                    x++
+                    $(wrapper).append('<div class="form-group col-md-12 "> <input type="text" class="form-control" id="school" placeholder="School"><input type="text" class="form-control" id="degree" placeholder="Degree"><input type="text" class="form-control" id="major" placeholder="major"><input type="text" class="form-control" id="cgpa" placeholder="Cgpa"><a href="#" class="remove_field btn btn-primary ad_btn" value="+">-</a></div>')
+                }
+            });
+
+            $(wrapper).on("click",".remove_field",function(e){
+                e.preventDefault();
+                $(this).parent('div').remove();
+                x--;
+            })
+        }
+        )
+    
+    
+    </script> -->
+
+    <title>Resume Builder</title>
+</head>
+<body>
+
+        <header class="container-fluid"></header>
+        
+        <nav class="navbar navbar-light dark_color">
+                <a class="navbar-brand ">N-Resume</a>
+                <form class="form-inline">
+                  <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                  <!-- < class="btn btn-dark clr my-2 my-sm-0" type="submit">Sign-Up</button> -->
+                  <!-- <a href="../views/temp1.html"" class="btn btn-dark clr my-2 my-sm-0">Sign-Up</a>  -->
+                </form>
+              </nav>
+    
+              <!-- <div class="bg_grd container-fluid centeralign">
+           
+              
+              </div> -->
+    
+                          
+                
+                
+           
+        </header>
+
+        <main class="container bgrnd">
+
+                <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="name">Name</label>
+                            <input type="Text" class="form-control noout" id="name" placeholder="Full Name...">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="email">email</label>
+                            <input type="email" class="form-control noout" id="email">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="password">Password</label>
+                          <input type="password" class="form-control noout" id="password">
+                        <!-- <div class="form-group">
+                          <label for="cnfpassword">Confirm Password</label>
+                          <input type="password" class="form-control " id="cnfpassword">
+                        </div> -->
+                        <div class="form-row">
+                          
+                          <div class="form-group col-md-8">
+                            
+                            <label for="portfolioLink">Linkedin Link</label>
+                            <input type="text" class="form-control noout" id="portfolioLink">
+                          </div>
+                          <div class="form-group col-md-4">
+                                <label for="number">Phone-No</label>
+                                <input type="text" class="form-control noout" id="number">
+                          </div>
+                          
+                        </div>
+                        <label for="">Education</label>
+                        
+                            <div class="form-row eduWrapper">
+                            
+                                <div class="form-group col-md-12 ">
+                                 
+                                  <input type="text" class="form-control noout" id="schoolName" placeholder="Institution">                         
+                                  <input type="text" class="form-control noout" id="degree" placeholder="Degree">
+                                  <input type="text" class="form-control noout" id="major" placeholder="major">
+                                  <input type="text" class="form-control noout" id="cgpa" placeholder="cgpa">
+                                  <br>
+
+
+                                  <input type="text" class="form-control noout" id="schoolName" placeholder="Institution">                      
+                                  <input type="text" class="form-control noout" id="degree" placeholder="Degree">
+                                  <input type="text" class="form-control noout" id="major" placeholder="major">
+                                  <input type="text" class="form-control noout" id="cgpa" placeholder="cgpa">
+
+                                    <br>
+                                  <input type="text" class="form-control noout" id="schoolName" placeholder="Institution">                            
+                                  <input type="text" class="form-control noout" id="degree" placeholder="Degree">
+                                  <input type="text" class="form-control noout" id="major" placeholder="major">
+                                  <input type="text" class="form-control noout" id="cgpa" placeholder="cgpa">
+
+                                  <!-- <input type="button" class="btn btn-primary ad_btn" value="+"> -->
+
+                                </div>
+                               
+                            </div>
+
+
+
+                        
+                        
+                            <label for="">Work Experiance</label>
+                        
+                            <div class="form-row eduWrapper">
+                            
+                                <div class="form-group col-md-6">
+                                 
+                                  <input type="text" class="form-control noout" id="companyName" placeholder="companyName">
+                                  <input type="text" class="form-control noout" id="jobTitle" placeholder="jobTitle">
+                                  <input type="text" class="form-control noout" id="loc" placeholder="Location">
+                                  <input type="text" class="form-control noout" id="startDate" placeholder="Start Date">
+                                  <input type="text" class="form-control noout" id="endDate" placeholder="End Date">
+                                  </div>
+                                  <div class="form-group col-md-6">
+                            
+                                    <input type="text" class="form-control noout" id="companyName" placeholder="companyName">
+                                  <input type="text" class="form-control noout" id="jobTitle" placeholder="jobTitle">
+                                  <input type="text" class="form-control noout" id="loc" placeholder="Location">
+                                  <input type="text" class="form-control noout" id="startDate" placeholder="Start Date">
+                                  <input type="text" class="form-control noout" id="endDate" placeholder="End Date">
+
+                                  <!-- <input type="button" class="btn btn-primary ad_btn" value="+"> -->
+
+                                </div>
+                            </div>
+                            <div class="form-row">
+
+                                <label >Skills</label>
+                            <div class="form-group col-md-12">
+                                 
+                                    <input type="text" class="form-control noout" id="skillName" placeholder="Skill - 1">
+                                    <input type="text" class="form-control noout" id="skillName" placeholder="Skill - 2">
+                                    <input type="text" class="form-control noout" id="skillName" placeholder="Skill - 3">
+                                    <input type="text" class="form-control noout" id="skillName" placeholder="Skill - 4">
+                                    <input type="text" class="form-control noout" id="skillName" placeholder="Skill - 5">
+                                    <input type="text" class="form-control noout" id="skillName" placeholder="Skill - 6">
+
+                                    <!-- <input type="button" class="btn btn-primary ad_btn" value="+"> -->
+  
+                                  </div>
+                                </div>
+
+
+                                <br>
+                                <label>Projects</label>
+
+                            <div class="form-row">
+                            <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="projectName" placeholder="Project Name">
+                                    <input type="text" class="form-control" id="projectDuration" placeholder="Project Duration">
+                                    <input type="text" class="form-control" id="projectDescription" placeholder="Project Description">
+                                    
+                                
+
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="projectName" placeholder="Project Name">
+                                    <input type="text" class="form-control" id="projectDuration" placeholder="Project Duration">
+                                    <input type="text" class="form-control" id="projectDescription" placeholder="Project Description">
+                                    
+
+                                
+
+                            </div>
+                            </div>
+                            <br>
+                            <label >Achievements</label>
+                            <div class="form-row">
+                            <div class="form-group col-md-12">
+                                    <input type="text" class="form-control" id="achivementName" placeholder="Project Name">
+                                    <input type="text" class="form-control" id="achievementDescription" placeholder="Project Duration">
+                                   
+                                    <br>
+
+                                    <input type="text" class="form-control" id="achivementName" placeholder="Project Name">
+                                    <input type="text" class="form-control" id="achievementDescription" placeholder="Project Duration">
+                                   
+
+                                    <br>
+                                    <input type="text" class="form-control" id="achivementName" placeholder="Project Name">
+                                    <input type="text" class="form-control" id="achievementDescription" placeholder="Project Duration">
+                                   
+                            </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-block btn-danger">Sign Up</button>
+
+                      </form>
+
+
+                      <br>
+                      <br>
+
+                        
+            
+        </main>
+       
+    
+    
+</body>
+</html>

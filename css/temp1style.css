@@ -1,0 +1,31 @@
+body{
+    margin:0px;
+    background-color:#f4f4f4;
+    
+}
+
+main{
+    border:4px solid darkslategrey;
+    background-color:white;
+}
+
+
+.text-center{
+    text-align:center;
+}
+
+.summ{
+    margin-top:1%;
+}
+
+#Professional_summ{
+    font-weight: bold;
+}
+
+.li-skill li{
+    margin:4px;
+
+}
+.bolder{
+    font-weight:bolder;
+}
